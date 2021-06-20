@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,      // khai báo mà không sử dụng
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true  ,
+      "removeComments": true,
+      "outDir": "build"
+    },
+      "exclude": ["node_modules"]
+  }
